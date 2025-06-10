@@ -12,6 +12,10 @@
   margin: 0;
 }
 
+label{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 :root{
   --primary-color: #23a8fe;
   --secondary-color: #ffb74d;
