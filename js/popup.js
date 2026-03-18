@@ -155,4 +155,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
         feedback.innerHTML = html;
     }
+
+    document.getElementById("explore-btn").addEventListener("click", () => {
+        chrome.tabs.create({ url: "https://codersship.com/" });
+    });
 });
